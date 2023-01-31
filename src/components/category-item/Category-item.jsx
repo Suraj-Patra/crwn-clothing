@@ -1,4 +1,4 @@
-import './Category-item.styles.scss';
+import './Category-item.scss';
 
 const CategoryItem = (props) => {
 	const { title, imageUrl } = props.category;

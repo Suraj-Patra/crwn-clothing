@@ -1,5 +1,5 @@
-import CategoryItem from '../category-item/Category-item.component.jsx';
-import './Directory.styles.scss';
+import CategoryItem from '../category-item/Category-item.jsx';
+import './Directory.scss';
 
 const Directory = (props) => {
 	const categoriesArr = props.categories.map((category) => {
